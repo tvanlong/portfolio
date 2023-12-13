@@ -10,7 +10,7 @@ const WorkItem = ({ data }) => {
           <span className='text-lg font-semibold text-[#001b5e]'>{data.title}</span>
           <span className='my-1 text-sm font-normal leading-none text-stone-400'>{data.duration}</span>
         </p>
-        <p className='my-2 text-base font-normal text-stone-500'>{data.details}</p>
+        <p className='my-2 text-base font-normal text-stone-500 text-justify'>{data.details}</p>
       </li>
     </ol>
   )

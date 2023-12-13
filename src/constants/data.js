@@ -1,23 +1,16 @@
 export const data = [
   {
-    year: 2020,
-    title: 'React',
-    duration: '2 months',
+    year: 2018,
+    title: 'Ly Thuong Kiet High School',
+    duration: '3 years',
     details:
-      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      'I completed my studies at Ly Thuong Kiet High School with rigorous subject courses such as math, physics and computer science. Additionally, I participated in programming clubs and science competitions, building a solid foundation in problem solving and logical thinking. I graduated as a top student, a testament to my commitment to academic success.'
   },
   {
-    year: 2020,
-    title: 'React',
-    duration: '2 months',
+    year: 2021,
+    title: 'BKACAD Academy of Technology',
+    duration: '3 years',
     details:
-      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  },
-  {
-    year: 2020,
-    title: 'React',
-    duration: '2 months',
-    details:
-      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      'At BKACAD Academy of Technology, I pursued a comprehensive program in Computer Science and Website Development. Over three years, I acquired practical skills in web development, including HTML, CSS, JavaScript and PHP. Collaborating on team projects enhanced my teamwork and communication abilities, and hands-on experiences through internships and industry-related events enriched my learning in the field. This journey not only deepened my theoretical knowledge but also equipped me with practical expertise for FrontEnd development.'
   }
 ]

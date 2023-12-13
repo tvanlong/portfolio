@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation'
-import { FaFacebookF, FaTwitter, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -15,7 +15,7 @@ const Main = () => {
           <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-900'>
             I'm a
             <TypeAnimation
-              sequence={['Developer', 2000, 'Coder', 2000, 'Tech Enthusiast', 2000]}
+              sequence={['Front-End Developer', 2000, 'Programmer', 2000, 'Tech Enthusiast', 2000]}
               wrapper='div'
               speed={50}
               style={{ fontSize: '1em', display: 'inline-block', paddingLeft: '5px' }}
@@ -23,11 +23,46 @@ const Main = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaFacebookF className='cursor-pointer' size={20} />
-            <FaTwitter className='cursor-pointer' size={20} />
-            <FaGithub className='cursor-pointer' size={20} />
-            <FaLinkedin className='cursor-pointer' size={20} />
-            <FaInstagram className='cursor-pointer' size={20} />
+            <a href='https://www.facebook.com/LongZannn1107'>
+              <FaFacebook
+                size={25}
+                className='hover:scale-110 
+                transform transition duration-500 ease-in-out
+                hover:text-blue-700'
+              />
+            </a>
+            <a href='https://twitter.com/Longzannn'>
+              <FaTwitter
+                size={25}
+                className='hover:scale-110
+                transform transition duration-500 ease-in-out
+                hover:text-[#2eaaf0]'
+              />
+            </a>
+            <a href='https://github.com/tvanlong'>
+              <FaGithub
+                size={25}
+                className='hover:scale-110
+                transform transition duration-500 ease-in-out
+              hover:text-black'
+              />
+            </a>
+            <a href='https://www.linkedin.com/in/v%C4%83n-long-622b3729b/'>
+              <FaLinkedin
+                size={25}
+                className='hover:scale-110 
+                transform transition duration-500 ease-in-out
+                hover:text-blue-700'
+              />
+            </a>
+            <a href='https://www.instagram.com/_longzannn703/'>
+              <FaInstagram
+                size={25}
+                className='hover:scale-110
+                transform transition duration-500 ease-in-out
+              hover:text-[#bd2163]'
+              />
+            </a>
           </div>
         </div>
       </div>
