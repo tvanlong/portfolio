@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject, AiFillCheckCircle } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject, AiOutlineCheckCircle } from 'react-icons/ai'
 import { GrProjects } from 'react-icons/gr'
 import { BsPerson } from 'react-icons/bs'
 
@@ -21,23 +21,23 @@ const Sidenav = () => {
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineHome size={20} />
-            <span className='pl-4'>Home</span>
+            <span className='pl-4 w-24'>Home</span>
           </a>
           <a
-            href='#work'
+            href='#education'
             onClick={handleNav}
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <GrProjects size={20} />
-            <span className='pl-4'>Work</span>
+            <span className='pl-4 w-24'>Work</span>
           </a>
           <a
             href='#skill'
             onClick={handleNav}
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <AiFillCheckCircle size={20} />
-            <span className='pl-4'>Skill</span>
+            <AiOutlineCheckCircle size={20} />
+            <span className='pl-4 w-24'>Skill</span>
           </a>
           <a
             href='#projects'
@@ -45,7 +45,7 @@ const Sidenav = () => {
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineProject size={20} />
-            <span className='pl-4'>Projects</span>
+            <span className='pl-4 w-24'>Projects</span>
           </a>
           <a
             href='#resume'
@@ -53,7 +53,7 @@ const Sidenav = () => {
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <BsPerson size={20} />
-            <span className='pl-4'>Resume</span>
+            <span className='pl-4 w-24'>Resume</span>
           </a>
           <a
             href='#contact'
@@ -61,7 +61,7 @@ const Sidenav = () => {
             className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineMail size={20} />
-            <span className='pl-4'>Contact</span>
+            <span className='pl-4 w-24'>Contact</span>
           </a>
         </div>
       ) : (
@@ -76,7 +76,7 @@ const Sidenav = () => {
             <AiOutlineHome size={20} />
           </a>
           <a
-            href='#work'
+            href='#education'
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
             <GrProjects size={20} />
@@ -85,7 +85,7 @@ const Sidenav = () => {
             href='#skill'
             className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
           >
-            <AiFillCheckCircle size={20} />
+            <AiOutlineCheckCircle size={20} />
           </a>
           <a
             href='#projects'
