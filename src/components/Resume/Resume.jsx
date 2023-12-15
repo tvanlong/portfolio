@@ -1,4 +1,5 @@
 import { IoMdDownload } from 'react-icons/io'
+import resume from '../../assets/pdf/resume.pdf'
 
 const Resume = () => {
   return (
@@ -15,7 +16,9 @@ const Resume = () => {
             transition-colors duration-200 ease-in-out'
         >
           <IoMdDownload size={20} />
-          <span className='ml-3'>Download Resume</span>
+          <a href={resume} download='Resume' className='ml-3'>
+            Download Resume
+          </a>
         </button>
       </div>
     </div>

@@ -5,18 +5,23 @@ import Skill from './components/Skill'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
-    <div>
-      <Sidenav />
-      <Main />
-      <Work />
-      <Skill />
-      <Projects />
-      <Resume />
-      <Contact />
-    </div>
+    <>
+      <div>
+        <Sidenav />
+        <Main />
+        <Work />
+        <Skill />
+        <Projects />
+        <Resume />
+        <Contact />
+      </div>
+      <ToastContainer />
+    </>
   )
 }
 
