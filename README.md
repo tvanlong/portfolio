@@ -1,7 +1,7 @@
 <h1 align="center" style="font-size: 60px">Portfolio</h1>
 
-<p align="center"><strong>Welcome to visit my CV online!  (｡◕‿‿◕｡) </strong></p>
-<p align="center"><strong>Design this "CV profile online" with ❤️ </strong></p>
+<p align="center"><strong>Welcome to visit!  (｡◕‿‿◕｡) </strong></p>
+<p align="center"><strong>Design this "Portfolio" with ❤️ </strong></p>
 
 <p align="center">
   <a href="https://github.com/tvanlong/portfolio">
@@ -17,4 +17,4 @@
 
 
 ### Visit: 
-🔗 [https://portfolio-longzann.vercel.app/](https://portfolio-longzann.vercel.app/)
+🔗 [https://portfolio-longzann.vercel.app](https://portfolio-longzann.vercel.app)
